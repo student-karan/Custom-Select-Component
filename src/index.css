@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Container{
+    @apply flex flex-col items-center min-w-[400px] w-[30vw] text-xl relative
+}
+
+.main_box{
+    @apply flex flex-wrap items-center relative pr-20 w-full min-h-16 border-2 border-gray-700 rounded-lg mb-1 p-2 focus-within:border-sky-500
+}
+.selected_button{
+    @apply flex items-center gap-1 border-gray-700 m-1 p-1 rounded-lg border-2 hover:bg-red-100
+     hover:text-red-500
+}
+.x_mark{
+    @apply text-2xl text-gray-700 hover:text-red-500 cursor-pointer
+}
+
+.caret{
+    @apply text-2xl text-gray-700 hover:text-black cursor-pointer transition duration-500 ease-in-out
+}
+.List{
+    @apply absolute  min-w-[400px] w-[30vw] border-2 z-10 bg-white border-gray-700 rounded-lg py-1
+}
+.list_item{
+    @apply py-2 pl-4 hover:bg-sky-700 hover:text-white cursor-pointer focus:bg-sky-700 focus:text-white
+}
+.list_item_hover{
+    @apply bg-sky-500 text-white
+}
