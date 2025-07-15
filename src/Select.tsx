@@ -35,7 +35,7 @@ const Select = ({ multiple, value, onChange, options }: SelectProps) => {
 
     return (
         <div ref={containerref} className='Container'>
-            <p className='mb-3 text-2xl'>{multiple ? "Multi Select" : "Single Select"}</p>
+            <p className='mb-3 text-xl  md:text-2xl '>{multiple ? "Multi Select" : "Single Select"}</p>
             <div className='main_box'>
 
                 {multiple ?

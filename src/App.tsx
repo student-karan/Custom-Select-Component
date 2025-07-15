@@ -48,7 +48,7 @@ function App() {
 
   return (
     <div className='p-2 font-mono flex flex-col gap-5 items-center'>
-      <h1 className='text-3xl font-bold'>Typescript Custom Select Component</h1>
+      <h1 className='text-center text-2xl md:text-3xl font-bold'>Typescript Custom Select Component</h1>
       <Select options={options} value={Value}
         onChange={(newValue: SelectOption | null) => setValue(newValue)}
       />
